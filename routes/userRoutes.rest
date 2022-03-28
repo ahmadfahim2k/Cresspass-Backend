@@ -1,0 +1,30 @@
+GET http://localhost:6969/users
+
+###
+
+GET http://localhost:6969/users/6202ab5d36c34b9c45778c4f
+
+###
+
+POST http://localhost:6969/users
+Content-Type: application/json
+
+{
+    "rrn": "180071601066",
+    "name": "Aslam M.N.",
+    "email": "180071601066@crescent.education",
+    "membership": []
+}
+
+###
+
+DELETE http://localhost:6969/users/6202ab4236c34b9c45778c49
+
+###
+
+PATCH  http://localhost:6969/users/6202ab5d36c34b9c45778c4f
+Content-Type: application/json
+
+{
+    "name": "Ahmad Fahim"
+}

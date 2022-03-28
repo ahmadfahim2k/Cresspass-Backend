@@ -1,0 +1,22 @@
+{
+  "name": "crespassreact",
+  "version": "1.0.0",
+  "description": "cresspassreact version",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "server": "nodemon server.js"
+  },
+  "author": "DF",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.25.0",
+    "concurrently": "^7.0.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.2",
+    "mongoose": "^6.1.8"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}

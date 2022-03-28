@@ -1,0 +1,23 @@
+GET http://localhost:6969/supervisors
+
+###
+GET http://localhost:6969/supervisors/6203a8a04e2522e6e38f2cf9
+
+###
+POST http://localhost:6969/supervisors
+Content-Type: application/json
+
+{
+    "name": "Deepak T",
+    "email": "tdk242@gmail.com",
+    "avatar": ""
+}
+
+###
+PATCH http://localhost:6969/supervisors/6203a8a04e2522e6e38f2cf9
+Content-Type: application/json
+
+{
+    "email": "notsquirrel2k@gmail.com"
+    //"avatar": ""
+}

@@ -1,0 +1,52 @@
+GET http://localhost:6969/events
+
+###
+GET http://localhost:6969/events/62038a22584f505dea848416
+
+###
+POST http://localhost:6969/events
+Content-Type: application/json
+
+{
+    "name": "Sample event 2",
+    "eventOrganizer": "Organization 1",
+    "eventPoster": "",
+    "eventDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent ultrices urna sed nisi venenatis, vel finibus nunc malesuada. Vestibulum nec congue velit, eget porttitor neque. Duis quis malesuada magna.",
+    "eventLocation": "Online",
+    "startYear": "2022",
+    "startMonth": "0",
+    "startDay": "27",
+    "startHour": "10",
+    "startMinute": "00",
+    "endYear": "2022",
+    "endMonth": "0",
+    "endDay": "27",
+    "endHour": "16",
+    "endMinute": "30"
+}
+
+###
+DELETE http://localhost:6969/events/6203eda30d5112abb2fb5616
+
+###
+PATCH http://localhost:6969/events/6203a4bdf659a10181f23070
+Content-Type: application/json
+
+{
+    //"eventPoster": "",
+    //"eventDescription": "",
+    "eventLocation": "CSE block"
+    //"startYear": "",
+    //"startMonth": "",
+    //"startDay": "",
+    //"startHour": "",
+    //"startMinute": "",
+    //"endYear": "",
+    //"endMonth": "",
+    //"endDay": "",
+    //"endHour": "",
+    //"endMinute": "",
+    //"usersRegistered": [],
+    //"tags": [],
+}
+

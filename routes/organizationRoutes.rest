@@ -1,0 +1,24 @@
+GET http://localhost:6969/organizations
+
+###
+GET http://localhost:6969/organizations/6203f7a025bec00e06aad49e
+
+###
+POST http://localhost:6969/organizations
+Content-Type: application/json
+
+{
+    "name": "Fantasy Org",
+    "email": "notsquirrel2k@gmail.com"
+}
+
+###
+PATCH  http://localhost:6969/organizations/6203f7ca25bec00e06aad4af
+Content-Type: application/json
+
+{
+    "members": ["180071601073"]
+}
+
+###
+DELETE http://localhost:6969/organizations/6203f7b725bec00e06aad4a8

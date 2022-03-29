@@ -22,6 +22,8 @@ router.post('/', async (req,res) => {
         rrn: req.body.rrn, //user id will be created automatically by mongo
         name: req.body.name,
         email: req.body.email,
+        course: req.body.course,
+        yearOfStudy: req.body.yearOfStudy,
         avatar: '',
         membership: req.body.membership,
         eventsRegistered: [],
@@ -58,6 +60,13 @@ router.patch('/:id', getUser, async (req,res) => {
     if(req.body.tags != null) {
         res.user.tags = req.body.tags
     }
+    if(req.body.yearOfStudy != null) {
+        res.user.yearOfStudy = req.body.yearOfStudy
+    }
+    if(req.body.course != null) {
+        res.user.course = req.body.course
+    }
+
     try {
         const updatedUser = await res.user.save()
         res.json(updatedUser)

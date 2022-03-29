@@ -2,7 +2,7 @@ GET http://localhost:6969/users
 
 ###
 
-GET http://localhost:6969/users/6202ab5d36c34b9c45778c4f
+GET http://localhost:6969/users/6241c262463c30b08d6d9a76
 
 ###
 
@@ -10,10 +10,12 @@ POST http://localhost:6969/users
 Content-Type: application/json
 
 {
-    "rrn": "180071601066",
-    "name": "Aslam M.N.",
-    "email": "180071601066@crescent.education",
-    "membership": []
+    "rrn": "180071601073",
+    "name": "Deepak T",
+    "email": "180071601073@crescent.education",
+    "membership": [],
+    "course": "CSE",
+    "yearOfStudy": 4
 }
 
 ###
@@ -21,10 +23,14 @@ Content-Type: application/json
 DELETE http://localhost:6969/users/6202ab4236c34b9c45778c49
 
 ###
+//62433b7ae5f993545471efb5
+//62433b8fe5f993545471efb8
+//62433b9be5f993545471efbb
 
-PATCH  http://localhost:6969/users/6202ab5d36c34b9c45778c4f
+PATCH  http://localhost:6969/users/62433b7ae5f993545471efb5
 Content-Type: application/json
 
 {
-    "name": "Ahmad Fahim"
+    "course": "CSE",
+    "yearOfStudy": 4
 }

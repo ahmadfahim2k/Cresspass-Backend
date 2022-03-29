@@ -29,6 +29,14 @@ const userSchema = new mongoose.Schema({
     tags: {
         type: Object,
         required: false
+    },
+    course: {
+        type: String,
+        required: false
+    },
+    yearOfStudy: {
+        type: Number,
+        required: false
     }
 });
 

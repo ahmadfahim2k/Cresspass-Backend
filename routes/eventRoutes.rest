@@ -8,21 +8,21 @@ POST http://localhost:6969/events
 Content-Type: application/json
 
 {
-    "name": "Sample event 2",
-    "eventOrganizer": "Organization 1",
+    "name": "Sample event 10",
+    "eventOrganizer": "Organization 3",
     "eventPoster": "",
     "eventDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent ultrices urna sed nisi venenatis, vel finibus nunc malesuada. Vestibulum nec congue velit, eget porttitor neque. Duis quis malesuada magna.",
     "eventLocation": "Online",
     "startYear": "2022",
-    "startMonth": "0",
-    "startDay": "27",
-    "startHour": "10",
-    "startMinute": "00",
+    "startMonth": "4",
+    "startDay": "14",
+    "startHour": "09",
+    "startMinute": "30",
     "endYear": "2022",
-    "endMonth": "0",
-    "endDay": "27",
+    "endMonth": "4",
+    "endDay": "14",
     "endHour": "16",
-    "endMinute": "30"
+    "endMinute": "00"
 }
 
 ###

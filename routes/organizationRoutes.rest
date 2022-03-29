@@ -1,19 +1,19 @@
 GET http://localhost:6969/organizations
 
 ###
-GET http://localhost:6969/organizations/6203f7a025bec00e06aad49e
+GET http://localhost:6969/organizations/62433aa5e5f993545471ef8b
 
 ###
 POST http://localhost:6969/organizations
 Content-Type: application/json
 
 {
-    "name": "Fantasy Org",
-    "email": "notsquirrel2k@gmail.com"
+    "name": "Organization 3",
+    "email": "org3@gmail.com"
 }
 
 ###
-PATCH  http://localhost:6969/organizations/6203f7ca25bec00e06aad4af
+PATCH  http://localhost:6969/organizations/62433aa5e5f993545471ef8b
 Content-Type: application/json
 
 {
